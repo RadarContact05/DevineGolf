@@ -20,3 +20,7 @@ def om_oss():
 def nyheter():
     return render_template("nyheter.html")
 
+@views.route("/kontakt")
+def kontakt():
+    return render_template("kontakt.html")
+

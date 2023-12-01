@@ -1,10 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+{% include "base.html" %}
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>nyheter</title>
+    <style>
+        .centered-text {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-
+    <div class="centered-text">
+        <h2>Nystartat UF företag</h2>
+        <p>Företaget Devine Golf har nu inlett starta fasen av företaget</p>
+        <p class="date">06 september, 2023</p>
+    </div>
+    <div class="centered-text">
+        <h2>Inköp av produkt</h2>
+        <p>Devine Golf har lagt en order på 20 handdukar som förväntas säljas under UF-året</p>
+        <p class="date">20 november, 2023</p>
+    </div>
 </body>
+<p style="margin-top: 260px;">
+{% include "footer.html" %}
+</p>
 </html>

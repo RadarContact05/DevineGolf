@@ -1,12 +1,20 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <title>Om_oss</title>
+    <title></title>
 </head>
 <body>
-<h1>Om oss</h1>
-<h3>Devine Golf  är ett ungdomsföretag grundat av fyra golfintresserade vänner.
+{% include "base.html" %}
+{% block content %}
+{% endblock %}
+<center>
+<h4>Devine Golf  är ett ungdomsföretag grundat av fyra golfintresserade vänner.
     Genom en kombination av vår erfarenhet och passion strävar vi efter att erbjuda golfare enastående utrustning och tillbehör till konkurrenskraftiga priser.
-    Vi strävar efter att skapa en gemenskap på golfbanan.</h3>
+    Vi strävar efter att skapa en gemenskap på golfbanan.</h4>
+    </center>
+<p style="margin-top: 300px;">
+{% include "footer.html" %}
+</p>
 </body>
 </html>
